@@ -60,7 +60,7 @@ Welcome to my personal portfolio website! This responsive and interactive web ap
 
 ## 🙌 Acknowledgments
 
-- [Formspree](https://formspree.io/)
+- [EmailJs](https://www.emailjs.com/)
 - [AOS Animation](https://michalsnik.github.io/aos/)
 - [Font Awesome](https://fontawesome.com/)
 - [Uiverse](https://uiverse.io/) for UI components
