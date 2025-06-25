@@ -2,7 +2,6 @@
 
 Welcome to my personal portfolio website! This responsive and interactive web app showcases my skills, projects, and contact details, designed with a clean UI and a modern tech stack.
 
-![Portfolio Banner](./images/banner.png) <!-- Optional: Replace or remove -->
 
 ---
 
@@ -48,13 +47,6 @@ Welcome to my personal portfolio website! This responsive and interactive web ap
 
 ---
 
-## 📸 Screenshots
-
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![Light](./images/light-preview.png) | ![Dark](./images/dark-preview.png) |
-
----
 
 ## 📬 Contact
 
