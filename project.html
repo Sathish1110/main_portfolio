@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sathishwaran's projects</title>
+<!-- Link -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon/android-chrome-512x512.png"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/utilities.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+</head>
+<body>
+
+    <header id="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="index.html"
+              ><img src="./images/logo.png" alt="Your Logo"
+            /></a>
+          </h1>
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li>
+              <a
+                class="nav-link btn btn-primary"
+                href="index.html#projects"
+                ><i class="fas fa-arrow-left"></i
+              >  Back</a>
+            </li>  
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <label class="switch" for="switch">
+                <input type="checkbox" id="switch" />
+                <span class="slider"></span>
+                <span class="decoration"></span>
+              </label>
+            </div>
+          </ul>
+          <!-- Hamburger menu -->
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+        <!-- Clock Widget -->
+        <div class="clock-widget" id="clockWidget">
+          <div class="time" id="time"><span id="time">11:11</span><span id="ampm">PM</span></div>
+          <div class="date" id="date">Wednesday, June 15th</div>
+          <div class="theme-icon" id="themeIcon">🌙</div>
+        </div>
+        <!-- Compact Clock Icon for Mobile -->
+        <div class="compact-clock" id="compactClock">🕒</div>
+      </nav>
+    </header>
+
+
+
+  <section class="project-container container">
+    <div class="division"></div>
+    <div class="content-text">
+      <h2>Projects</h2>
+      <p>Here are more of my personal and team projects</p>
+    </div>
+
+    <article class="project">
+      <!-- Copy this card block multiple times -->
+      <div class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>AI ChatBot App</h3>
+            <p>Flutter, Python, FastAPI</p>
+          </div>
+          <div class="project-link">
+            <a href="https://github.com/Sathish1110/ChatBot-App" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Whatsapp Styled Portfolio</h3>
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+          <div class="project-link">
+            <a href="https://github.com/Sathish1110/whatsapp_style_portfolio" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://sathishwaran-s-portfolio.vercel.app/" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Space Invader Game</h3>
+            <p>Python, PyGame</p>
+          </div>
+          <div class="project-link">
+            <a href="https://github.com/Sathish1110/Space-Invader-Game" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Gemini ChatBot</h3>
+            <p>Python, Google Gemini</p>
+          </div>
+          <div class="project-link">
+            <a href="https://github.com/Sathish1110/Gemini-Chatbot" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Offline LLM</h3>
+            <p>Python, Ollama</p>
+          </div>
+          <div class="project-link">
+            <a href="https://github.com/Sathish1110/offline-Chatbot" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Inquesta 1.0</h3>
+            <p>React, Vite</p>
+          </div>
+          <div class="project-link">
+            <a href="https://github.com/Sathish1110/inquest1.o" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- Add more .card blocks as needed -->
+    </article>
+  </section>
+
+  <footer id="footer">
+    <p class="footer-copy">&copy; Sathishwaran S <span id="datee"></span>, All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

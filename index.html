@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>Sathishwaran's Portfolio</title>
+    <meta name="title" content="Sathishwaran's Portfolio" />
+    <meta
+      name="description"
+      content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+    />
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+
+    <!-- Link -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon/android-chrome-512x512.png"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("IVrmupk257n-VOJkq"); // Replace with your actual EmailJS Public Key
+  })();
+</script>
+
+  </head>
+  <body>
+    <header id="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="#"
+              ><img src="./images/logo.png" alt="Your Logo"
+            /></a>
+          </h1>
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" id="home-link"href="#">HOME</a></li>
+            <li><a class="nav-link" href="#skills">SKILLS</a></li>
+            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li><a class="nav-link" href="#footer">CONTACT</a></li>
+            <li>
+              <a
+                style="font-weight: 600;"
+                class="btn btn-primary"
+                href="assets/Sathishwaran S Resume.pdf"
+                target="_blank"
+                >RESUME <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>  
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <label class="switch" for="switch">
+                <input type="checkbox" id="switch" />
+                <span class="slider"></span>
+                <span class="decoration"></span>
+              </label>
+            </div>
+          </ul>
+          <!-- Hamburger menu -->
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+        <!-- Clock Widget -->
+        <div class="clock-widget" id="clockWidget">
+          <div class="time" id="time"><span id="time">11:11</span><span id="ampm">PM</span></div>
+          <div class="date" id="date">Wednesday, June 15th</div>
+          <div class="theme-icon" id="themeIcon">🌙</div>
+        </div>
+        <!-- Compact Clock Icon for Mobile -->
+        <div class="compact-clock" id="compactClock">🕒</div>
+      </nav>
+      
+      <section class="header-container" data-aos="fade-up">
+        <img
+          class="profile-image"
+          src="images/profile-image.jpg"
+          alt=""
+        />
+        <h1 data-aos="fade-right">Hi I'm Sathish Waran S</h1>
+
+        <div class="content-text">
+          <h2 data-aos="fade-up">Crafting seamless tech with<br>code and vision.</h2>
+          <!-- <h2>Building innovative solutions, and designing seamless interactions with creativity, code, and a passion for technology.</h2> -->
+
+          <p data-aos="zoom-in">
+            Motivated Computer Science Engineering student with expertise in app and web development. Proven leadership quality in organizing
+ impactful events and driving technical innovation. Passionate about building cutting-edge solutions and fostering collaborative excellence.
+          </p>
+        </div>
+        <a href="https://www.linkedin.com/in/sathish-waran-s-165661257/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <button>
+          <p>Connect With Me</p>
+          <svg viewBox="0 0 16 16" class="bi bi-whatsapp" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
+          </svg>
+        </button>
+        </a>
+      </section>
+    </header>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section container" data-aos="fade-up">
+  <div class="division"></div>
+  <div class="content-text">
+    <h2>My Skills</h2>
+    <p>A snapshot of technologies and tools I'm comfortable with.</p>
+  </div>
+
+  <div class="skills-grid">
+    <div class="package">
+      <div class="package2">
+        <h3 class="text1">Frontend</h3>
+        <ul class="text">
+          <li>Flutter</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="package">
+      <div class="package2">
+        <h3 class="text1">Backend</h3>
+        <ul class="text">
+          <li>Python</li>
+          <li>FastAPI</li>
+          <li>Node.js</li>
+          <li>MySQL</li>
+          <li>FireBase</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="package">
+      <div class="package2">
+        <h3 class="text1">Tools & Platforms</h3>
+        <ul class="text">
+          <li>VS Code</li>
+          <li>Git & GitHub</li>
+          <li>Figma</li>
+          <li>Vercel</li>
+          <li>Android Studio</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="package">
+      <div class="package2">
+        <h3 class="text1">Languages</h3>
+        <ul class="text">
+          <li>Python</li>
+          <li>Java</li>
+          <li>C</li>
+          <li>Dart</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Projects -->
+    <section id="projects" class="project-container container" data-aos="fade-up">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Projects</h2>
+        <p>Check out some of my personal projects</p>
+      </div>
+
+      <article class="project">
+        <!-- Project 2 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>AI ChatBot App</h3>
+              <p>Flutter, Python, FastAPI</p>
+            </div>
+
+            <div class="project-link">
+              <a href="https://github.com/Sathish1110/ChatBot-App" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 1 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>WhatsApp styled Portfolio</h3>
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="project-link">
+              <a href="https://github.com/Sathish1110/whatsapp_style_portfolio" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://sathishwaran-s-portfolio.vercel.app/" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Porject 3 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Space Invader Game</h3>
+              <p>Python, PyGame</p>
+            </div>
+
+            <div class="project-link">
+              <a href="https://github.com/Sathish1110/Space-Invader-Game" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <!-- <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Four</h3>
+              <p>React, Redux, SASS</p>
+            </div>
+
+            <div class="project-link">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Project 5 -->
+        <!-- <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Five</h3>
+              <p>React, Redux, SASS</p>
+            </div>
+
+            <div class="project-link">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div> -->
+        
+        <!-- Project 6 -->
+        <!-- <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Six</h3>
+              <p>React, Redux, SASS</p>
+            </div>
+
+            <div class="project-link">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div> -->
+      </article>
+
+      <div class="see-more-wrapper"><a href="project.html" class="btn1"> <div class="user-profile-inner">
+    See More
+  </div></a></div>
+    </section>
+
+<!-- Contact Section in Footer -->
+
+<footer id="footer">
+  <div class="contact-footer">
+
+    <div class="footer-grid">
+      <!-- <div class="footer-left">
+        <h2>Ask Me a Question</h2>
+        <form action="https://formspree.io/f/xdkzwrrp" method="POST" class="query-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div> -->
+      <div class="footer-left form-card">
+  <h2>Ask Me a Question</h2>
+  <form id="contact-form">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your name" required />
+    </div>
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter your email" required />
+    </div>
+    <div class="form-group">
+      <label for="message">Your Message</label>
+      <textarea name="message" id="message" rows="4" placeholder="Enter your message" required></textarea>
+    </div>
+    <button type="submit">Send!</button>
+  </form>
+</div>
+
+      <div class="footer-right">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Contact</h2>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:sathish20041011@gmail.com">sathish20041011@gmail.com</a></p>
+        <p><i class="fas fa-phone-alt"></i> +91 7904551220</p>
+        <p><i class="fas fa-map-marker-alt"></i>No:2/1240A<br>7th Cross Street Karpaga Vinayagar Nagar Vettuvankeni<br>Chennai,TamilNadu,India - 600115</p>
+      </div>
+
+      <div class="socialcard-wrapper">
+        <div class="social-text"><h2 class="social-title">Social Links</h2></div>
+        <div class="socialcard">
+          <a href="https://www.linkedin.com/in/sathish-waran-s-165661257/" target="_blank" class="socialContainer containerThree">
+            <svg class="socialSvg linkdinSvg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+          </a>
+          <a href="https://github.com/Sathish1110" target="_blank" class="socialContainer containerTwo">
+            <svg class="socialSvg githubSvg"  viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
+          </a>
+          <a href="https://leetcode.com/u/Sathish_1110/" target="_blank" class="socialContainer containerFive">
+            <svg class="socialSvgs"role="img" viewBox="-18 -16 60 60" ><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" fill="white"></path></svg>
+          </a>
+          <a href="https://www.skillrack.com/faces/resume.xhtml?id=403289&key=1824c8697b682413f17d290b6a9ca0b6a1879067" target="_blank" class="socialContainer containerSix">
+            <svg class="socialSvgs"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="-60 -50 200 200">
+              <image xlink:href="data:image/png;base64,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" x="0" y="0" width="80" height="80"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/7904551220" target="_blank" class="socialContainer containerFour">
+            <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16"> <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path> </svg>
+          </a>
+          <a href="https://instagram.com/sathish_1110" target="_blank" class="socialContainer containerOne">
+            <svg class="socialSvg instagramSvg" viewBox="0 0 16 16"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> </svg>
+          </a>
+        </div>
+      </div>
+      <!-- Map -->
+      <div class="map-container">
+        <h2>Location</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d243.0318591334597!2d80.24955043018981!3d12.93920039095952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1750510355457!5m2!1sen!2sin"
+          width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>
+    </div>
+
+
+    <!-- Social Media Icons -->
+    <!-- <div class="social center">
+      <a href="https://www.linkedin.com/in/sathish-waran-s-165661257/" target="_blank"><img src="./images/linkedin-icon.svg" alt="LinkedIn" /></a>
+      <a href="https://github.com/Sathish1110" target="_blank"><img src="./images/github-icon.svg" alt="GitHub" /></a>
+      <a href="https://wa.me/7904551220" target="_blank"><img src="./images/whatsapp_icon.svg" alt="WhatsApp" id="w"/></a>
+      <a href="https://instagram.com/sathish_1110" target="_blank"><img src="./images/insta_icon.svg" alt="Instagram" id="in"/></a>
+    </div> -->
+
+
+    <!-- Copyright -->
+    <p class="footer-copy">
+      &copy; Sathishwaran S <span id="datee"></span>, All rights reserved
+    </p>
+  </div>
+</footer>
+
+
+
+
+    <script src="script.js"></script>
+    <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,      // speed of animation
+  offset: 120,         // how far from screen to trigger
+  once: false,          // only once or every time
+  easing: 'ease-in-out',    // animate only once
+  mirror:true
+  });
+</script>
+
+  </body>
+
+</html>
