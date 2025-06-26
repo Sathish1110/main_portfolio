@@ -100,40 +100,6 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  const form = document.querySelector(".footer-left form");
-  const toast = document.getElementById("toast");
-
-  form.addEventListener("submit", function (e) {
-    e.preventDefault(); // prevent actual submission to show toast
-
-    // Optional: Submit form with AJAX (if needed), or just show toast
-    fetch(form.action, {
-      method: "POST",
-      body: new FormData(form),
-      headers: {
-        Accept: "application/json",
-      },
-    })
-      .then(() => {
-        toast.classList.remove("hidden");
-        toast.classList.add("show");
-
-        form.reset(); // optional: reset form
-
-        // Hide toast after 4 seconds
-        setTimeout(() => {
-          toast.classList.remove("show");
-          toast.classList.add("hidden");
-        }, 4000);
-      })
-      .catch((error) => {
-        alert("Oops! Something went wrong.");
-      });
-  });
-});
-
-
 
 //mail logic
 
