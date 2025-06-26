@@ -24,8 +24,8 @@ Welcome to my personal portfolio website! This responsive and interactive web ap
 | Frontend | Styling | Other |
 |----------|---------|-------|
 | HTML5    | CSS3, Custom variables | AOS (Animate On Scroll) |
-| JavaScript | Flexbox & Grid | Formspree (Contact form) |
-| GitHub Pages | Responsive Design | Toast Notification |
+| JavaScript | Flexbox & Grid | EmailJS (Contact form) |
+| GitHub Pages | Responsive Design | Alert Notification |
 
 ---
 
