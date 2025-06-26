@@ -167,3 +167,31 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
+/*Role Change Logic*/
+document.addEventListener("DOMContentLoaded", () => {
+  const boxContainer = document.getElementById("boxContainer");
+  const boxes = boxContainer.querySelectorAll(".box");
+  const boxHeight = 30; // same as in CSS
+  let currentIndex = 0;
+
+  // Clone the first box and append to end (for smooth looping)
+  const firstClone = boxes[0].cloneNode(true);
+  boxContainer.appendChild(firstClone);
+  const totalItems = boxes.length + 1;
+
+  setInterval(() => {
+    currentIndex++;
+    boxContainer.style.transition = "transform 0.4s ease-in-out";
+    boxContainer.style.transform = `translateY(-${currentIndex * boxHeight}px)`;
+
+    // When reaching clone, reset to start after transition
+    if (currentIndex === totalItems - 1) {
+      setTimeout(() => {
+        boxContainer.style.transition = "none";
+        boxContainer.style.transform = `translateY(0px)`;
+        currentIndex = 0;
+      }, 500); // wait for transition to finish
+    }
+  }, 2500);
+});
