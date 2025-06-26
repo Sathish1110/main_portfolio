@@ -7,7 +7,7 @@
 }
 
 /* Card Style */
-#achievements .card {
+/* #achievements .card {
   background-color: var(--card-background);
   border-radius: 12px;
   overflow: hidden;
@@ -18,7 +18,57 @@
 #achievements .card:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+} */
+
+#achievements .card1 {
+  position: relative;
+  background-color: var(--card-background);
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0;
+  transition: transform 0.3s ease;
+  z-index: 1;
 }
+
+[data-theme="dark"] #achievements .card1::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index: -1;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #ed0f94, #1009e8);
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+[data-theme="light"] #achievements .card1::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index: -1;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #05c8ef, #d60bcc);
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#achievements .card1:hover {
+  transform: translateY(-6px);
+}
+
+#achievements .card1:hover::before {
+  opacity: 0.8;
+}
+
+
 
 /* Card Image */
 #achievements .card img {
@@ -84,4 +134,20 @@
   font-size: 0.95rem;
   color: var(--text-color);
   line-height: 1.4;
+}
+
+.achievement-link
+{
+  display:flex;
+  justify-content: right;
+}
+.card1 a {
+  color:var(--text-color);
+  transition: 0.25s ease-in-out;
+  font-size: 1.8rem;
+  margin-right: 0.3rem;
+}
+
+.card1 a:hover {
+  color: var(--primary-color);
 }
