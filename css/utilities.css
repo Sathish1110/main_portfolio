@@ -279,6 +279,11 @@ input:checked + .slider:before {
   background: url(../assets/project/inquesta1.0.png) center center/cover;
 }
 
+/* Project 7 */
+.card:nth-child(7) {
+  background: url(../assets/project/libmanage.jpg) center center/cover;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   .header-container {
