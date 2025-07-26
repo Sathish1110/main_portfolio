@@ -295,3 +295,137 @@ input:checked + .slider:before {
     font-size: 2.5rem;
   }
 }
+
+
+
+/* From Uiverse.io by AlimurtuzaCodes */ 
+.btnnn {
+  border: none;
+  width: 7em;
+  height: 2.5em;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: var(--text-color);
+  cursor: pointer;
+  transition: all 450ms ease-in-out;
+  margin-top: 10px;
+}
+
+.sparkle {
+  fill: var(--text-color-two);
+  transition: all 300ms ease;
+}
+
+.textexp {
+  font-weight: 600;
+  color: var(--text-color-two);
+  /* color: #AAAAAA; */
+  font-size: medium;
+}
+
+.btnnn:hover {
+  background: linear-gradient(0deg,#A47CF3,#683FEA);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+  inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+  0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+  0px 0px 180px 0px #9917FF;
+  transform: translateY(-2px);
+}
+
+.btnnn:hover .text {
+  color: white;
+}
+
+.btnnn:hover .sparkle {
+  fill: white;
+  transform: scale(0.9);
+} 
+
+
+/* Marquee */
+
+
+.marquee-wrapper {
+  overflow: hidden;
+  background: linear-gradient(90deg, #f7971e, #ffd200);
+  padding: 10px 0;
+  margin: 40px 0;
+  position: relative;
+  white-space: nowrap;
+}
+
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+.marquee-content {
+  display: flex;
+}
+.marquee-content div {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cert {
+  display: inline-block;
+  margin: 0 50px;
+  color: #000;
+  height: 200px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+.cert:hover {
+  transform: scale(1.05);
+}
+
+.certp {
+  display: flex;
+  font-size: 0.8rem;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+.marquee-wrapper:hover .marquee {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@media screen and (max-width: 600px) {
+  .cert {
+    height: 140px;
+    width: 220px;
+  }
+
+  .certp {
+    font-size: 0.7rem;
+  }
+
+  .marquee-content div {
+    padding: 0 10px;
+  }
+
+  .marquee-wrapper {
+    padding: 8px 0;
+  }
+
+  .marquee {
+    animation-duration: 40s;
+  }
+}
