@@ -274,13 +274,17 @@ input:checked + .slider:before {
   background: url(../assets/project/offlineLLM.png) center center/cover;
 }
 
-/* Project 6 */
 .card:nth-child(6) {
+  background: url(../assets/project/file.png) center center/cover;
+}
+
+/* Project 6 */
+.card:nth-child(7) {
   background: url(../assets/project/inquesta1.0.png) center center/cover;
 }
 
 /* Project 7 */
-.card:nth-child(7) {
+.card:nth-child(8) {
   background: url(../assets/project/libmanage.jpg) center center/cover;
 }
 
